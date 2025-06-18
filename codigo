@@ -1,0 +1,48 @@
+#CARRERA.PY
+from Personaje_clase import Personaje #esto vincula con lo q escribi en el otro archivo
+print("Para empezar la carrera, edita los personajes")
+
+nombre= input("ingrese el nombre de tu personaje:")
+altura= int(input("ingrese la altura de tu personaje entre 160 - 180:"))
+velocidad= int(input("ingrese la velocidad de tu personaje entre 100 - 200:"))
+resistencia=int(input("ingrese la resistencia de tu personaje entre 1 - 20:"))
+resistencia= int(input("ingrese la resistencia de tu personaje 10 - 30:"))
+fuerza= int(input("ingrese la fuerza de tu personaje 10 - 50:"))
+
+p1= Personaje(nombre, altura, velocidad, resistencia, fuerza)
+
+print(p1.nombre)
+
+
+
+nombre= input("ingrese el nombre de tu segundo personaje:")
+altura= int(input("ingrese la altura de tu personaje entre 160 - 180:"))
+velocidad= int(input("ingrese la velocidad de tu personaje entre 100 - 200:"))
+resistencia=int(input("ingrese la resistencia de tu personaje entre 1 - 20:"))
+resistencia= int(input("ingrese la resistencia de tu personaje 10 - 30:"))
+fuerza= int(input("ingrese la fuerza de tu personaje 10 - 50:"))
+
+p2= Personaje(nombre, altura, velocidad, resistencia, fuerza)
+
+print(p2.nombre)
+
+
+
+
+
+
+#clase_personaje.py
+class Personaje (): #defini la clase y el nombre
+    estado = True #vivo, define el estado de tds los personajes)
+
+    def __init__(self, nombre, altura, velocidad, resistencia, fuerza): #este es el constructor, init es para darrle inicio al constructor
+        self.nombre= nombre
+        self.altura= altura
+        self .velocidad= velocidad
+        self .resistencia= resistencia
+        self.fuerza= fuerza
+        
+        
+    def correr 
+
+
